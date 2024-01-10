@@ -107,14 +107,11 @@ $$\lambda\log\left(\frac{1}{\sqrt{x^2+y^2}}\right) = -\frac{\lambda}{2}\log(x^2+
 This gives
 $$K\_{\alpha = 0}(x,y) = -\frac{\displaystyle \delta}{\displaystyle 4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \frac{\lambda}{2}\log(x^2+y^2) + \gamma(x^2+y^2)^{\beta/2}$$
 and
-$$
-\nabla K\_{\alpha = 0}(x,y) = 
+$$\nabla K\_{\alpha = 0}(x,y) = 
     \begin{bmatrix}
         x\left(\dfrac{\delta a^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \\
         y\left(\dfrac{\delta b^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right)
-    \end{bmatrix}
-.
-$$
+    \end{bmatrix}.$$
 Similarly, if *β* = 0, we replace
 *γ*(*x*<sup>2</sup>+*y*<sup>2</sup>)<sup>*β*/2</sup> with
 $$\gamma\log\left(\sqrt{x^2+y^2}\right) = \frac{\gamma}{2}\log\left(x^2+y^2\right).$$
@@ -157,3 +154,18 @@ $$\nabla K\_{\beta = 0}(x,y) = \begin{bmatrix}
         x^{c-1}\left(\dfrac{\delta c a^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\alpha\lambda(x^c+y^c)^{-\alpha/c-1} + \dfrac{\gamma\mathstrut}{x^c+y^c}\right) \\
         y^{c-1}\left(\dfrac{\delta c b^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\alpha\lambda(x^c+y^c)^{-\alpha/c-1} + \dfrac{\gamma\mathstrut}{x^c+y^c}\right)
     \end{bmatrix}.$$
+$$
+\nabla K\_{\alpha = 0}(x,y) = 
+    \begin{bmatrix}
+        x\left(\dfrac{\delta a^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \\
+        y\left(\dfrac{\delta b^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right)
+    \end{bmatrix}
+$$
+
+```math
+\nabla K\_{\alpha = 0}(x,y) = 
+    \begin{bmatrix}
+        x\left(\dfrac{\delta a^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \\
+        y\left(\dfrac{\delta b^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right)
+    \end{bmatrix}
+```
