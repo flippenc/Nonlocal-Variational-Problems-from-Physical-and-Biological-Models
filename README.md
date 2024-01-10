@@ -12,12 +12,12 @@
 
 The Hamiltonian of a particle interaction system with *N* particles is
 given by
-$$E(\boldsymbol{x_1}, \ldots, \boldsymbol{x_N}) = \sum\_{\substack{i,j = 1 \\ i \neq j}}^N K(\boldsymbol{x_i}-\boldsymbol{x_j})$$
+$$E(\boldsymbol{x_1}, \ldots, \boldsymbol{x_N}) = \sum\_{\substack{i,j = 1 \\\ i \neq j}}^N K(\boldsymbol{x_i}-\boldsymbol{x_j})$$
 where **x**<sub>**1**</sub>, …, **x**<sub>**N**</sub> are
 two-dimensional vectors and *K* : ℝ<sup>2</sup> → ℝ is the interaction
 kernel. To determine the ground state of this system, we solve the
 following ODE system
-$$\frac{d\boldsymbol{x_i}}{dt} = -\frac{1}{N}\sum\_{\substack{i,j = 1 \\ i \neq j}}^N \nabla K(\boldsymbol{x_i}-\boldsymbol{x_j}).$$
+$$\frac{d\boldsymbol{x_i}}{dt} = -\frac{1}{N}\sum\_{\substack{i,j = 1 \\\ i \neq j}}^N \nabla K(\boldsymbol{x_i}-\boldsymbol{x_j}).$$
 The two types of initial conditions we considered were:
 
 -   particles randomly placed in a ball in ℝ<sup>2</sup> with radius 0.5
