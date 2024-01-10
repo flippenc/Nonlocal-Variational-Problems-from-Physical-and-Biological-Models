@@ -62,9 +62,11 @@ Let *α*, *β*, *γ*, *δ*, *ε*, and *λ* be real numbers with 2 \>�
 kernel" is defined as
 $$K(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\frac{x^2+y^2}{4\varepsilon}\right) + \lambda(x^2 + y^2)^{-\alpha/2} + \gamma(x^2+y^2)^{\beta/2}.$$
 The gradient of this kernel is
+
 $$
 \nabla K(x,y) = \begin{bmatrix} x\left(\dfrac{\delta\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \\\ y\left(\dfrac{\delta\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \end{bmatrix}.
 $$
+
 If *α* = 0, we replace
 *λ*(*x*<sup>2</sup>+*y*<sup>2</sup>)<sup>−*α*/2</sup> with
 $$\lambda\log\left(\frac{1}{\sqrt{x^2+y^2}}\right) = -\frac{\lambda}{2}\log(x^2+y^2).$$
