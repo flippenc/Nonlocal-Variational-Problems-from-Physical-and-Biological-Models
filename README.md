@@ -71,15 +71,18 @@ $$\lambda\log\left(\frac{1}{\sqrt{x^2+y^2}}\right) = -\frac{\lambda}{2}\log(x^2+
 This gives
 $$K\_{\alpha = 0}(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \frac{\lambda}{2}\log(x^2+y^2) + \gamma(x^2+y^2)^{\beta/2}$$
 and
+
 $$
 \nabla K\_{\alpha = 0}(x,y) = \begin{bmatrix} x\left(\dfrac{\delta\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \\\ y\left(\dfrac{\delta\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \end{bmatrix}.
 $$
+
 Similarly, if *β* = 0, we replace
 *γ*(*x*<sup>2</sup>+*y*<sup>2</sup>)<sup>*β*/2</sup> with
 $$\gamma\log\left(\sqrt{x^2+y^2}\right) = \frac{\gamma}{2}\log\left(x^2+y^2\right).$$
 This gives
 $$K\_{\beta = 0}(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \lambda\log(x^2+y^2) + \frac{\gamma}{2}\log(x^2+y^2)$$
 and
+
 $$
 \nabla K\_{\beta = 0}(x,y) = \begin{bmatrix} x\left(\dfrac{\delta\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \dfrac{\gamma\mathstrut}{x^2+y^2}\right) \\\ y\left(\dfrac{\delta\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{x^2+y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \dfrac{\gamma\mathstrut}{x^2+y^2}\right) \end{bmatrix}.
 $$
@@ -90,24 +93,29 @@ Let *a* and *b* be positive real numbers. The “elliptical kernel" is
 defined as
 $$K(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) + \lambda(x^2 + y^2)^{-\alpha/2} + \gamma(x^2+y^2)^{\beta/2}.$$
 The gradient of this kernel is
+
 $$
 \nabla K(x,y) = \begin{bmatrix} x\left(\dfrac{\delta a^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \\\ y\left(\dfrac{\delta b^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \end{bmatrix}.
 $$
+
 If *α* = 0, we replace
 *λ*(*x*<sup>2</sup>+*y*<sup>2</sup>)<sup>−*α*/2</sup> with
 $$\lambda\log\left(\frac{1}{\sqrt{x^2+y^2}}\right) = -\frac{\lambda}{2}\log(x^2+y^2).$$
 This gives
 $$K\_{\alpha = 0}(x,y) = -\frac{\displaystyle \delta}{\displaystyle 4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \frac{\lambda}{2}\log(x^2+y^2) + \gamma(x^2+y^2)^{\beta/2}$$
 and
+
 $$
 \nabla K\_{\alpha = 0}(x,y) = \begin{bmatrix} x\left(\dfrac{\delta a^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \\\ y\left(\dfrac{\delta b^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \dfrac{\lambda\mathstrut}{x^2+y^2} + \beta\gamma (x^2 + y^2)^{\beta/2-1}\right) \end{bmatrix}.
 $$
+
 Similarly, if *β* = 0, we replace
 *γ*(*x*<sup>2</sup>+*y*<sup>2</sup>)<sup>*β*/2</sup> with
 $$\gamma\log\left(\sqrt{x^2+y^2}\right) = \frac{\gamma}{2}\log\left(x^2+y^2\right).$$
 This gives
 $$K\_{\beta = 0}(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \lambda\log(x^2+y^2) + \frac{\gamma}{2}\log(x^2+y^2)$$
 and
+
 $$
 \nabla K\_{\beta = 0}(x,y) = \begin{bmatrix} x\left(\dfrac{\delta a^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \dfrac{\gamma\mathstrut}{x^2+y^2}\right) \\\ y\left(\dfrac{\delta b^2\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^2x^2+b^2y^2\mathstrut}{4\varepsilon}\right) - \alpha \lambda (x^2+y^2)^{-\alpha/2-1} + \dfrac{\gamma\mathstrut}{x^2+y^2}\right) \end{bmatrix}.
 $$
@@ -118,24 +126,29 @@ Let *c* be an even positive integer. The “elliptical *c*-norm kernel" is
 defined as
 $$K(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right) + \lambda(x^c + y^c)^{-\alpha/c} + \gamma(x^c+y^c)^{\beta/c}.$$
 The gradient of this kernel is
+
 $$
 \nabla K(x,y) = \begin{bmatrix} x^{c-1}\left(\dfrac{\delta c a^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\alpha\lambda(x^c+y^c)^{-\alpha/c-1} + \gamma\beta(x^c+y^c)^{\beta/c-1}\right) \\\ y^{c-1}\left(\dfrac{\delta c b^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\alpha\lambda(x^c+y^c)^{-\alpha/c-1} + \gamma\beta(x^c+y^c)^{\beta/c-1}\right) \end{bmatrix}.
 $$
+
 If *α* = 0, we replace
 *λ*(*x*<sup>*c*</sup>+*y*<sup>*c*</sup>)<sup>−*α*/*c*</sup> with
 $$\lambda\log\left((x^c+y^c)^{-1/c}\right) = -\frac{\lambda}{c}\log(x^c+y^c).$$
 This gives
 $$K\_{\alpha = 0}(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)  -\frac{\lambda}{c}\log(x^c+y^c) + \gamma(x^c+y^c)^{\beta/c}$$
 and
+
 $$
 \nabla K\_{\alpha = 0}(x,y) = \begin{bmatrix} x^{c-1}\left(\dfrac{\delta c a^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\dfrac{\lambda\mathstrut}{x^c+y^c} + \gamma\beta(x^c+y^c)^{\beta/c-1}\right) \\\ y^{c-1}\left(\dfrac{\delta c b^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\dfrac{\lambda\mathstrut}{x^c+y^c} + \gamma\beta(x^c+y^c)^{\beta/c-1}\right) \end{bmatrix}.
 $$
+
 If *β* = 0, we replace
 *γ*(*x*<sup>*c*</sup>+*y*<sup>*c*</sup>)<sup>*β*/*c*</sup> with
 $$\gamma\log\left((x^c+y^c)^{1/c}\right) = \frac{\gamma}{c}\log(x^c+y^c).$$
 This gives
 $$K\_{\beta = 0}(x,y) = -\frac{\delta}{4\sqrt{\pi}\varepsilon^{3/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right) + \lambda(x^c + y^c)^{-\alpha/c} + \frac{\gamma}{c}\log(x^c+y^c)$$
 and
+
 $$
 \nabla K\_{\beta = 0}(x,y) = \begin{bmatrix} x^{c-1}\left(\dfrac{\delta c a^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\alpha\lambda(x^c+y^c)^{-\alpha/c-1} + \dfrac{\gamma\mathstrut}{x^c+y^c}\right) \\\ y^{c-1}\left(\dfrac{\delta c b^c\mathstrut}{8\sqrt{\pi}\varepsilon^{5/2}}\exp\left(-\dfrac{a^cx^c+b^cy^c\mathstrut}{4\varepsilon}\right)-\alpha\lambda(x^c+y^c)^{-\alpha/c-1} + \dfrac{\gamma\mathstrut}{x^c+y^c}\right) \end{bmatrix}.
 $$
