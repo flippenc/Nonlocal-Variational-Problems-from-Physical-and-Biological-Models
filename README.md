@@ -1,9 +1,9 @@
-**Research Funding and Support Information:**
+**General Repository, Research Funding, Support Information:**
 
 -   This research was funded by [NSF Grant DMS
     2306962](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2306962&HistoricalAwards=false)
 
--   Some of the numerical results for this research were obtained using
+-   The numerical results for this research were obtained using
     the Teal Cluster from VCU’s High Performance Computing Facility.
     Information about the facility [can be found
     here](https://research.vcu.edu/cores/hprc/facilities/)
@@ -30,7 +30,7 @@ The two types of initial conditions we considered were:
 
 -   particles randomly placed in two balls in ℝ<sup>2</sup> of radius
     *ε*/4 sitting next to each other (balls centered at
-    ($\pm\sqrt{\varepsilon/4},0$))
+    $(\pm\sqrt{\varepsilon/4},0$)$)
 
     -   the file `twoCirclesParameterizedGenModel.m` uses the two balls
         initial condition
