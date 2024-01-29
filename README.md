@@ -30,7 +30,7 @@ The two types of initial conditions we considered were:
 
 -   particles randomly placed in two balls in ℝ<sup>2</sup> of radius
     *ε*/4 sitting next to each other (balls centered at
-    $(\pm\sqrt{\varepsilon/4},0$)$)
+    $(\pm\sqrt{\varepsilon/4},0))$
 
     -   the file `twoCirclesParameterizedGenModel.m` uses the two balls
         initial condition
