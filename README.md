@@ -2,7 +2,9 @@
 
 **General Repository, Research Funding, Support Information:**
 
--   This research was conducted during the fall of 2023 under the leadership of Dr. Ihsan Topaloglu and this research was funded by [NSF Grant DMS
+-   This research was conducted during the fall of 2023 under the leadership of Dr. Ihsan Topaloglu
+
+-   This research was funded by [NSF Grant DMS
     2306962](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2306962&HistoricalAwards=false)
 
 -   The numerical results for this research were obtained using
